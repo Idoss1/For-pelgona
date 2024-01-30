@@ -1,0 +1,41 @@
+#container { 
+
+    width: 300px;
+    height: 350px;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4px;
+    padding: 10px
+    
+    }
+    #display{
+    grid-column: 1/4;
+    font-size: large;
+    }
+    button {
+    border: 0;
+    font-size: large;
+    }
+    
+    
+
+    h1{
+
+font-family:  monospace;
+
+
+    }
+
+    .blackbg{
+        font-size: large;
+background-color: black;
+color: yellow;
+
+    }
+
+    .yellowbg{
+        font-size: large;
+background-color: yellow;
+color: black;
+    }
